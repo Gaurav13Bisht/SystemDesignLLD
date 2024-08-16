@@ -9,8 +9,10 @@ import SOLID.SingleResponsibility.Invoice2;
      */
 
 public interface InvoiceSave2 {
-    public void save(Invoice2 invoice);
+    void save(Invoice2 invoice);
 }
+
+//-----------------------------------------------------------------------------------------------------
 
 class InvoiceSaveToDB implements InvoiceSave2{
     public void save(Invoice2 invoice){
