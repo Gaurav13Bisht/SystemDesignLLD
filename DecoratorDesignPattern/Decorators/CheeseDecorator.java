@@ -1,6 +1,6 @@
-package DecoratorPattern.Decorators;
+package DecoratorDesignPattern.Decorators;
 
-import DecoratorPattern.BasicPizza;
+import DecoratorDesignPattern.BasicPizza;
 
 public class CheeseDecorator implements PizzaDecorator{
     public BasicPizza basicPizza;

@@ -1,7 +1,7 @@
-package DecoratorPattern;
+package DecoratorDesignPattern;
 
-import DecoratorPattern.Decorators.CheeseDecorator;
-import DecoratorPattern.Decorators.JalepenoDecorator;
+import DecoratorDesignPattern.Decorators.CheeseDecorator;
+import DecoratorDesignPattern.Decorators.JalepenoDecorator;
 
 public class Main {
     public static void main(String[] args) {

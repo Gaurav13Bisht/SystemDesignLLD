@@ -1,6 +1,6 @@
-package DecoratorPattern.Decorators;
+package DecoratorDesignPattern.Decorators;
 
-import DecoratorPattern.BasicPizza;
+import DecoratorDesignPattern.BasicPizza;
 
 public interface PizzaDecorator extends BasicPizza {
     public int calories();

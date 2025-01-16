@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorDesignPattern;
 
 public class MargheritaPizza implements BasicPizza{
     @Override

@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorDesignPattern;
 
 public class FarmHousePizza implements BasicPizza{
     @Override
