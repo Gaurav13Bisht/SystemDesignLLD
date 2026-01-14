@@ -37,7 +37,7 @@ class Bicycle extends Vehicle1 {
 
     @Override
     public List<String> modesAvailable() {
-        return null;
+        throw new UnsupportedOperationException();
     }
 }
 
