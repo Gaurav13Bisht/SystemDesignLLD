@@ -31,6 +31,13 @@ public class Computer {
         this.hasBluetooth = computerBuilder.hasBluetooth;
     }
 
+    // Can also use a static method like this to direct create object without using "new" keyword
+    public static ComputerBuilder builder(String cpu, String ram) {
+        return new ComputerBuilder(cpu, ram);
+    }
+
+    // Need to make it static because we want to create builder class's object without the need of
+    // Computer class object since its defeat the purpose otherwise
     public static class ComputerBuilder{
         private final String CPU;
         private final String RAM;

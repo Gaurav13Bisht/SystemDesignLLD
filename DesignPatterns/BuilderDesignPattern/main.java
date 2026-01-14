@@ -14,5 +14,10 @@ public class main {
                 .hasBluetooth(true)
                 .build();
         System.out.println(gamingComputer);
+
+        // Create a standard computer with only mandatory fields (using defaults for others)
+        Computer standardComputer2 = Computer.builder("Intel i5", "8GB")
+                .build();
+        System.out.println(standardComputer2);
     }
 }
