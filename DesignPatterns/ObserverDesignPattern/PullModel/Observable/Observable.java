@@ -1,0 +1,25 @@
+package DesignPatterns.ObserverDesignPattern.PullModel.Observable;
+
+import DesignPatterns.ObserverDesignPattern.PullModel.Observer.Observer;
+
+/*
+
+The Observer pattern is a behavioral design pattern that defines a one-to-many dependency between
+objects. When the state of one object (the subject or publisher) changes, all its dependent objects
+(the observers or subscribers) are automatically notified and updated, promoting loose coupling
+between components.
+
+ */
+
+
+// This is Pull Model in which Observable just update the observers that there is a change in it and then
+// Observers pull the data as per requirement from the Observable
+
+public interface Observable {
+    public void register(Observer observer);
+    public void deregister(Observer observer);
+    public void refillStock(int stock);
+    public int getStock();
+    public void clearStock();
+    public void doNotify();
+}

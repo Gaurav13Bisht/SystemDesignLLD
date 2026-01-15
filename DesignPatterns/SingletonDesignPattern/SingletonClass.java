@@ -1,5 +1,13 @@
 package DesignPatterns.SingletonDesignPattern;
 
+/*
+
+The Singleton design pattern in Java ensures that a class has only one instance and provides a global point
+of access to that instance. It's a creational pattern often used for managing shared resources like database
+connections, logging systems, or configuration managers.
+
+*/
+
 public class SingletonClass {
     // Early initialization:
     // Since instance is created at class construction, its thread-safe by default

@@ -1,5 +1,17 @@
 package DesignPatterns.ProxyDesignPattern;
 
+/*
+
+Proxy Design Pattern is a structural design pattern where a proxy object acts as a placeholder
+to control access to the real object.
+
+This intermediary layer, the proxy, has the same interface as the original object (the "real subject"),
+allowing it to be used interchangeably while adding extra functionality like security checks, lazy loading,
+or logging.
+
+ */
+
+
 // Here, this proxy class is acting as a validator for the incoming request and if validation passed, it forwards the
 // call to the impl class which do the actual processing and return data back
 public class EmployeeProxy implements Employee{
