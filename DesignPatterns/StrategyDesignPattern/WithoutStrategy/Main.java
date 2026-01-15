@@ -15,4 +15,5 @@ public class Main {
 }
 
 // The issue with this Design pattern is that when multiple child classes needs same functionality but parent doesn't have it,
-// so we will have to put the same code in both the classes hence code reusability will be poor.
+// so we will have to put the same code in all the child classes hence code reusability will be poor.
+// And if any change required, the all classes have to be changed
